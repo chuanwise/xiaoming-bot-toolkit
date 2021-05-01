@@ -1,0 +1,7 @@
+{
+  "@class": "com.taixue.xiaoming.bot.core.plugin.PluginPropertyImpl",
+  "main": "com.taixue.xiaoming.bot.plugin.ToolkitPlugin",
+  "name": "toolkit",
+  "version": "1.0",
+  "author": "Chuanwise"
+}
