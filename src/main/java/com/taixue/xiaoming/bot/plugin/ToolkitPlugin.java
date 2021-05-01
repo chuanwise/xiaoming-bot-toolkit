@@ -30,6 +30,7 @@ public class ToolkitPlugin extends XiaomingPluginImpl {
         INSTANCE = this;
         getDataFolder().mkdirs();
         loadUserManager();
+        // 注册指令处理器
         getXiaomingBot().getCommandManager().register(toolkitCommandExecutor, this);
     }
 }
